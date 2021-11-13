@@ -1,0 +1,165 @@
+/*--------------------------------
+ Custom style for hosting
+ Author: King Theme
+ Apply for: Arkahost
+---------------------------------*/
+
+body{
+	
+}
+
+#domain_search_results{
+	clear: both;
+	margin: 0 auto;
+	max-width: 1170px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.domain_search .serch_area .enter_email_input.loading, .domain_search.sty2 .serch_area .enter_email_input.loading, .page_title1.sty7 .serch_area .enter_email_input.loading{
+	background-image: url("../images/loading.gif");
+	background-repeat: no-repeat;
+	background-position: center right 10px;
+}
+
+.domain_search .content-result, .domain_search .suggest_domain .title h3{
+	color: #FFF;
+	text-align: left;
+}
+.domain_search .suggest_domain .title h3{
+	text-align: center;
+}
+
+#domain_search_results .content-result{	
+	padding-top: 30px;
+}
+
+.content-result strong._dm-r00{
+	display: block;
+	float: left;
+	font-size: 20px;
+	padding-bottom: 15px;
+	text-align: center;
+	width: 100%;
+}
+
+.content-result strong.domain-taken{
+	color: #FF9999;
+}
+
+.content-result strong.domain-available{
+	color: #86C724;
+}
+
+.select_domain{
+	text-align: center;	
+}
+
+.suggest_domain{
+	border: 1px solid #e4e4e4;
+	border-radius: 5px;
+	float: left;
+	overflow: hidden;
+	width: 100%;
+}
+
+.suggest_domain .title{
+	
+}
+
+body .suggest_domain .title h3{
+	padding: 15px 0 0;
+    text-align: center;
+}
+
+.suggest_domain .domain{	
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #e4e4e4;
+}
+
+.suggest_domain .domain strong, .suggest_domain .domain span.status, .suggest_domain .domain .view_whois{
+	float: left;
+	display: block;
+	padding: 15px 30px;
+	font-size: 16px;
+	border-right: 1px solid #e4e4e4;
+}
+
+.suggest_domain .domain strong{
+	width: 40%;
+}
+
+.suggest_domain .domain span.status{
+	width: 30%;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.suggest_domain .domain .view_whois{
+	width: 30%;
+	text-align: center;
+	border-right: none;
+}
+
+.status.available{
+	color: #99FF00;
+}
+
+.status.taken{
+	color: #FF9999;
+}
+
+body .content-result .input_submit {
+	float: none!important;
+}
+
+
+.whois_view:hover, .select_this_domain:hover{
+	color: #FFFFFF;
+}
+
+#whois_view_result{
+	position: relative;
+	clear: both;
+	padding: 10px 20px;
+	border: 1px solid #999;
+	border-radius: 5px;	
+}
+
+#whois_view_result .close{
+	position: absolute;
+	right: 16px;
+	top: 5px;
+	color: #FF9999;
+}
+
+#whois_view_result .close{
+	font-size: 16px;
+}
+
+.page_title1.sty7 .suggest_domain{
+	border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #fff;
+    padding-top: 15px;
+}
+.page_title1.sty7 .suggest_domain .title h3 {
+    color: #fff;
+}
+.page_title1.sty7 .suggest_domain .domain{
+	border-top: 1px solid #fff;
+}
+.page_title1.sty7 .status.taken{
+	color: #FFFF00;
+}
+.page_title1.sty7 .status.available{
+	
+}
+.page_title1.sty7 a{
+	color: #FFFFFF;
+}
+.page_title1.sty7 .content-result strong.domain-taken{
+	color: #FFF;
+}
+
